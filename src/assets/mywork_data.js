@@ -33,7 +33,7 @@ const mywork_data = [
     w_no: 11,
     w_name: "My_Portfolio",
     w_img: project11_img,
-    w_link: "https://my-eve-dashboard.vercel.app/",
+    w_link: "https://my-portfolio-nine-alpha-39.vercel.app/",
   },
   {
     w_no: 12,
