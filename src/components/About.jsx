@@ -32,42 +32,63 @@ const About = () => {
           </div>
           <div className="d-flex flex-column gap-2">
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">HTML & CSS</p>
+              <abbr style={{ textDecoration: "none" }} title="Intermediat">
+                <p className="min-w-28 fs-5 fw-semibold">HTML & CSS</p>
+              </abbr>
               <hr
                 style={{ width: "80%" }}
                 className=" custom-hr rounded-pill"
               />
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">React JS</p>
+              <abbr style={{ textDecoration: "none" }} title="Advanced">
+                <p className="min-w-32 fs-5 fw-semibold">React JS</p>
+              </abbr>
               <hr
                 style={{ width: "90%" }}
                 className=" custom-hr rounded-pill"
               />
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">Bootstrap</p>
+              <abbr style={{ textDecoration: "none" }} title="Intermediat">
+                <p className="min-w-28 fs-5 fw-semibold">Bootstrap</p>
+              </abbr>
               <hr
                 style={{ width: "60%" }}
                 className=" custom-hr rounded-pill"
               />
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">Tailwind CSS</p>
+              <abbr style={{ textDecoration: "none" }} title="Intermediat">
+                <p className="min-w-28 fs-5 fw-semibold">Tailwind CSS</p>
+              </abbr>
               <hr
                 style={{ width: "50%" }}
                 className=" custom-hr rounded-pill"
               />
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">JavaScript</p>
+              <abbr style={{ textDecoration: "none" }} title="Advanced">
+                <p className="min-w-28 fs-5 fw-semibold">JavaScript</p>
+              </abbr>
               <hr
                 style={{ width: "85%" }}
                 className=" custom-hr rounded-pill"
               />
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
-              <p className="min-w-28 fs-5 fw-semibold">Node.js</p>
+              <abbr style={{ textDecoration: "none" }} title="Advanced">
+                <p className="min-w-28 fs-5 fw-semibold">Typescript</p>
+              </abbr>
+              <hr
+                style={{ width: "60%" }}
+                className=" custom-hr rounded-pill"
+              />
+            </div>
+            <div className="custom-div d-flex gap-3 align-items-center">
+              <abbr style={{ textDecoration: "none" }} title="Advanced">
+                <p className="min-w-28 fs-5 fw-semibold">Node.js</p>
+              </abbr>
               <hr
                 style={{ width: "70%" }}
                 className=" custom-hr rounded-pill"

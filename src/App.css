@@ -41,9 +41,10 @@
   }
 
   .custom-hr {
-   
+    
     height: 8px; 
-    background: linear-gradient(270deg, #DA7625, #B415FF); 
+    background: linear-gradient(90deg, #DF8908 40% , #B415FF 100%); 
+    border: transparent;
    
   }
   
