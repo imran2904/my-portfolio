@@ -54,10 +54,10 @@ const Nav = () => {
         </ul>
       </div>
 
-      <div className="cursor-pointer custom-gradient  p-3 fs-4 rounded-pill transform transition-transform duration-500 hover:scale-90 me-md-5">
+      <div className=" cursor-pointer custom-gradient align-item-center justify-content-center rounded-4 me-md-5">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           {" "}
-          Connect with me{" "}
+          <p className="container fs-5 p-2">Connect with me </p>
         </AnchorLink>
       </div>
     </div>

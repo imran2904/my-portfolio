@@ -64,8 +64,8 @@ const Contact = () => {
               </h3>
             </div>
           </div>
-          <div className="col-md-6">
-            <form onSubmit={onSubmit} className="form-signin">
+          <div className="col-md-5 ">
+            <form onSubmit={onSubmit} className=" form-signin">
               <h3 className="h5 mb-4 mt-3 fw-normal">Your Name</h3>
               <div className="form-floating">
                 <input
@@ -95,7 +95,7 @@ const Contact = () => {
               </div>
 
               <button
-                className="submit btn btn-primary w-50 mt-3 py-2"
+                className="submit btn  mt-3 "
                 type="submit"
               >
                 Submit Now

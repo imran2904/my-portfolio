@@ -59,7 +59,7 @@
   }
   .about-title h1{
     padding: 0px 30px;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
   }
   .about-title img{
@@ -67,6 +67,7 @@
     bottom: 0;
     right: 0;
     z-index: -1;
+    width:240px;
   }
 
   .anchor-link{

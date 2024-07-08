@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="display-3 container mt-5 ms-auto me-auto d-flex flex-column align-items-center justify-content-center gap-4"
     >
-      <div className="display-3 about-title">
+      <div className="display-2  about-title">
         <h1 className="">About me</h1>
 
         <img src={theme_pattern} alt="" />
@@ -81,5 +81,3 @@ const About = () => {
 };
 
 export default About;
-
-

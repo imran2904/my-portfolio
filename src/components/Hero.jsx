@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="d-flex ms-5 mb-5 flex-column justify-content-center align-items-center gap-3"
+      className="d-flex  mb-5 flex-column justify-content-center align-items-center gap-3"
     >
       <img className="img-cover mt-4 img-fluid" src={profile_img} alt="" />
 
@@ -19,13 +19,13 @@ const Hero = () => {
         I am a frontend developer from Rajasthan, India with great skills.
       </p>
       <div className="d-flex align-items-center gap-3 fs-4 fw-semibold mb-4">
-        <div className="overflow-hidden cursor-pointer custom-gradient py-2 px-3 rounded-pill border border-transparent duration-300 hover-border">
+        <div className="overflow-hidden fs-6 cursor-pointer custom-gradient py-2 px-3 rounded-pill border border-transparent duration-300 hover-border">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
             {" "}
             Connect with me{" "}
           </AnchorLink>
         </div>
-        <div className="cursor-pointer py-2 px-3 rounded-pill border custom-hover-border">
+        <div className="cursor-pointer fs-6 py-2 px-3 rounded-pill border custom-hover-border">
           <a
             className="nav-link"
             target="_blank"
