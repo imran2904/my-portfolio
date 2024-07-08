@@ -73,6 +73,7 @@ const Contact = () => {
                   type="text"
                   className="form-control"
                   placeholder="Enter your name"
+                  required
                 />
               </div>
               <h3 className="h5 mb-4 mt-3 fw-normal">Your Email</h3>
@@ -82,6 +83,7 @@ const Contact = () => {
                   type="email"
                   className="form-control"
                   placeholder="Password"
+                  required
                 />
               </div>
               <p className="h5 mb-4 mt-3 fw-normal">Write your message here</p>
@@ -91,13 +93,11 @@ const Contact = () => {
                   type="password"
                   className="form-control"
                   placeholder="Password"
+                  required
                 />
               </div>
 
-              <button
-                className="submit btn  mt-3 "
-                type="submit"
-              >
+              <button className="submit btn  mt-3 " type="submit">
                 Submit Now
               </button>
             </form>
