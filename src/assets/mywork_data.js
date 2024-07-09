@@ -4,19 +4,29 @@ import project9_img from "../assets/Multi_step_login_form.png";
 import project10_img from "../assets/traffic_dashBoard.png";
 import project11_img from "../assets/My-portfolio.png";
 import project12_img from "../assets/Social-media.png";
+import project6_img from "../assets/E-dashboard.png";
+
 const mywork_data = [
   {
-    w_no: 7,
+    w_no: 8,
     w_name: "E-commerce",
     w_img: project8_img,
     w_link: "https://shopper-khaki-alpha.vercel.app/",
   },
   {
-    w_no: 8,
+    w_no: 7,
     w_name: "Whether-app",
     w_img: project7_img,
     w_link: "https://weather-app-bice-chi-19.vercel.app/",
   },
+  {
+    w_no: 6,
+    w_name: "E-Dashboard",
+    w_img: project6_img,
+    w_link:
+      "https://drive.google.com/file/d/1ZT7YPBLuf5h6RpkiIeCSiKKKtNQTmPdB/view?usp=drive_link",
+  },
+
   {
     w_no: 9,
     w_name: "MultiStep_loginForm",
