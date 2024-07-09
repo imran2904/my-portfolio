@@ -24,7 +24,7 @@ const mywork_data = [
     w_name: "E-Dashboard",
     w_img: project6_img,
     w_link:
-      "https://drive.google.com/file/d/1ZT7YPBLuf5h6RpkiIeCSiKKKtNQTmPdB/view?usp=drive_link",
+      "https://drive.google.com/file/d/1ZYrtwMsPoULpWei-S07wPcszS67lOKKn/view?usp=drive_link",
   },
 
   {
