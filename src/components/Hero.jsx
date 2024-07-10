@@ -29,7 +29,7 @@ const Hero = () => {
           <a
             className="nav-link"
             target="_blank"
-            href="https://drive.google.com/file/d/1xW3RPIdiaJ6TqqLOhp9XEzWoHql-nJi1/view?usp=drive_link"
+            href="https://drive.google.com/file/d/17Ae5p9g9UsjYgKE7o2YfTvt87PYqb0ik/view?usp=drive_link"
           >
             My resume
           </a>
