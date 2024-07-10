@@ -12,7 +12,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="navbar my-3 mx-5 d-flex align-items-center justify-content-between">
+    <nav className="navbar  mx-5 d-flex align-items-center justify-content-between">
       <img src={logo} alt="Logo" className="logo flex-shrink-0" />
       <div className="menu-container">
         <button className="d-block d-md-none menu-toggle" onClick={toggleMenu}>
@@ -40,7 +40,7 @@ const Nav = () => {
 
       <div className="connect-btn cursor-pointer custom-gradient align-item-center justify-content-center rounded-4 me-md-5">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
-          <p className="container fs-5 p-2">Connect with me</p>
+          <p className="container fs-6 p-2">Connect with me</p>
         </AnchorLink>
       </div>
     </nav>
