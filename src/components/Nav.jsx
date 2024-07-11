@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import logo from "../assets/Designer-removebg-preview.png";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RxHamburgerMenu } from "react-icons/rx";
 import underline from "../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
-
+import list from "../assets/list.svg";
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [menu, Setmenu] = useState();
@@ -16,7 +16,7 @@ const Nav = () => {
       <img src={logo} alt="Logo" className="logo flex-shrink-0" />
       <div className="menu-container">
         <button className="d-block d-md-none menu-toggle" onClick={toggleMenu}>
-          <GiHamburgerMenu />
+          <img className="list " src={list} alt="" />
         </button>
         <ul
           className={`menu-list d-md-flex cursor-pointer align-items-center list-unstyled gap-4 fs-4 ${

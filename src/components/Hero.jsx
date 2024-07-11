@@ -8,16 +8,19 @@ const Hero = () => {
       className="d-flex  mb-5 flex-column justify-content-center align-items-center gap-3"
     >
       <img className="img-cover mt-4 img-fluid" src={profile_img} alt="" />
-
-      <h5 className="text-center w-75 display-3 fw-semibold">
+      <h5 className="text-center fs-1 w-50 display-4 fw-semibold">
         <span className=" custom-gradient text-transparent bg-clip-text">
-          I, am Imran Khan{" "}
+          Hi, I'm Imran Khan
         </span>
-        , frontend developer based in India.
+        , a passionate frontend developer from Rajasthan, India.
       </h5>
-      <p className="w-50 text-center fs-4">
-        I am a frontend developer from Rajasthan, India with great skills.
+
+      <p className="w-50 text-center fs-5">
+        My skills include HTML, CSS, JavaScript, and React.js. I am continuously
+        learning and expanding my knowledge to stay updated with the latest
+        trends and best practices in web development.
       </p>
+
       <div className="d-flex align-items-center gap-3 fs-4 fw-semibold mb-4">
         <div className="overflow-hidden fs-6 cursor-pointer custom-gradient py-2 px-3 rounded-pill border border-transparent duration-300 hover-border">
           <AnchorLink className="anchor-link" offset={50} href="#contact">
@@ -29,6 +32,7 @@ const Hero = () => {
           <a
             className="nav-link"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://drive.google.com/file/d/17Ae5p9g9UsjYgKE7o2YfTvt87PYqb0ik/view?usp=drive_link"
           >
             My resume

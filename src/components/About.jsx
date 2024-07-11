@@ -29,6 +29,11 @@ const About = () => {
               I'm enthusiastic about crafting engaging and responsive web
               experiences.
             </p>
+            <p className=" text-center fs-4">
+              Check out some of my projects below to see my work in action. Feel
+              free to reach out if you’d like to collaborate or just want to say
+              hi!
+            </p>
           </div>
           <div className="d-flex flex-column gap-2">
             <div className="custom-div d-flex gap-3 align-items-center">
