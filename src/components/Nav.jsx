@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import logo from "../assets/Designer-removebg-preview.png";
-import { RxHamburgerMenu } from "react-icons/rx";
 import underline from "../assets/nav_underline.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import list from "../assets/list.svg";

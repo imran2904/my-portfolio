@@ -14,22 +14,22 @@ const About = () => {
         <img src={theme_pattern} alt="" />
       </div>
 
-      <div className="d-flex flex-column flex-md-row gap-4">
+      <div className="d-flex flex-column flex-md-row gap-3">
         <div className="d-flex w-75 h-75">
           <img className="w-75 m-5" src={profile} alt="" />
         </div>
         <div className="d-flex flex-column gap-4">
-          <div className="d-flex flex-column fs-4 gap-2 fw-semibold">
-            <p className="md:ml-5 md:mr-5 ml-0 mr-0">
+          <div className="d-flex flex-column fs-4  fw-semibold">
+            <p className="fs-5 md:ml-5 md:mr-5 ml-0 mr-0">
               Hello! I'm Imran Khan, a recent MCA graduate with a passion for
               front-end development. With a strong foundation in React.js,
               Node.js, Tailwind CSS, Bootstrap, and JavaScript.
             </p>
-            <p className="md:ml-5 md:mr-5 ml-0 mr-0">
+            <p className="fs-5 md:ml-5 md:mr-5 ml-0 mr-0">
               I'm enthusiastic about crafting engaging and responsive web
               experiences.
             </p>
-            <p className=" text-center fs-4">
+            <p className=" text-center fs-5">
               Check out some of my projects below to see my work in action. Feel
               free to reach out if you’d like to collaborate or just want to say
               hi!
@@ -38,7 +38,7 @@ const About = () => {
           <div className="d-flex flex-column gap-2">
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Intermediat">
-                <p className="min-w-28 fs-5 fw-semibold">HTML & CSS</p>
+                <p className="min-w-28 fs-6 fw-semibold">HTML & CSS</p>
               </abbr>
               <hr
                 style={{ width: "80%" }}
@@ -47,7 +47,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Advanced">
-                <p className="min-w-32 fs-5 fw-semibold">React JS</p>
+                <p className="min-w-32 fs-6 fw-semibold">React JS</p>
               </abbr>
               <hr
                 style={{ width: "90%" }}
@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Intermediat">
-                <p className="min-w-28 fs-5 fw-semibold">Bootstrap</p>
+                <p className="min-w-28 fs-6 fw-semibold">Bootstrap</p>
               </abbr>
               <hr
                 style={{ width: "60%" }}
@@ -65,7 +65,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Intermediat">
-                <p className="min-w-28 fs-5 fw-semibold">Tailwind CSS</p>
+                <p className="min-w-28 fs-6 fw-semibold">Tailwind CSS</p>
               </abbr>
               <hr
                 style={{ width: "50%" }}
@@ -74,7 +74,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Advanced">
-                <p className="min-w-28 fs-5 fw-semibold">JavaScript</p>
+                <p className="min-w-28 fs-6 fw-semibold">JavaScript</p>
               </abbr>
               <hr
                 style={{ width: "85%" }}
@@ -83,7 +83,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Advanced">
-                <p className="min-w-28 fs-5 fw-semibold">Typescript</p>
+                <p className="min-w-28 fs-6 fw-semibold">Typescript</p>
               </abbr>
               <hr
                 style={{ width: "60%" }}
@@ -92,7 +92,7 @@ const About = () => {
             </div>
             <div className="custom-div d-flex gap-3 align-items-center">
               <abbr style={{ textDecoration: "none" }} title="Advanced">
-                <p className="min-w-28 fs-5 fw-semibold">Node.js</p>
+                <p className="min-w-28 fs-6 fw-semibold">Node.js</p>
               </abbr>
               <hr
                 style={{ width: "70%" }}
