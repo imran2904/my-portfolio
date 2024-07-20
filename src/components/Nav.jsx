@@ -25,13 +25,15 @@ const Nav = () => {
           {["Home", "about", "work", "Contact"].map((item, index) => (
             <li key={index}>
               <AnchorLink
-                className="anchor-link"
+                className="anchor-link "
                 offset={50}
                 href={`#${item.toLowerCase().replace(" ", "")}`}
               >
                 <p onClick={() => Setmenu(item)}>{item}</p>
               </AnchorLink>
-              {menu === item ? <img src={underline} alt="underline" /> : null}
+              {menu === item ? (
+                <img className="w-100" src={underline} alt="underline" />
+              ) : null}
             </li>
           ))}
         </ul>
