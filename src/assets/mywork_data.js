@@ -5,13 +5,19 @@ import project10_img from "../assets/traffic_dashBoard.png";
 import project11_img from "../assets/My-portfolio.png";
 import project12_img from "../assets/Social-media.png";
 import project6_img from "../assets/E-dashboard.png";
-
+import project5_img from "../assets/Movie-review.png";
 const mywork_data = [
   {
     w_no: 8,
     w_name: "E-commerce",
     w_img: project8_img,
     w_link: "https://shopper-khaki-alpha.vercel.app/",
+  },
+  {
+    w_no: 5,
+    w_name: "Movie-review-site",
+    w_img: project5_img,
+    w_link: "https://movie-site-nu-umber.vercel.app/",
   },
   {
     w_no: 7,
